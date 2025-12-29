@@ -2,31 +2,161 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Our Story 💖</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <section class="hero">
-      <h1>Our Story</h1>
-      <p>Happy Birthday ❤️</p>
-    </section>
-
-    <section class="timeline">
-      <div class="event">
-        <h3>How We Met</h3>
-        <p>The moment everything changed.</p>
+    <div id="password-overlay" class="password-overlay">
+      <div class="password-container">
+        <h2>🔒 Protected Content</h2>
+        <p>Please enter the password to view this special memory timeline</p>
+        <form id="password-form">
+          <input
+            type="password"
+            id="password-input"
+            placeholder="Enter password"
+            autocomplete="off"
+            required
+          />
+          <button type="submit">Unlock</button>
+        </form>
+        <div id="error-message" class="error-message"></div>
       </div>
+    </div>
 
-      <div class="event">
-        <h3>Our First Memory</h3>
-        <p>I still remember how I felt.</p>
-      </div>
-    </section>
+    <div id="main-content" class="main-content">
+      <section class="hero">
+        <h1>Our Story</h1>
+        <p>Happy Birthday ❤️</p>
+        <section class="intro-message">
+          <p class="romantic-intro">
+            You made my life very special and I love you the most and the words
+            will not be enough to describe you....
+          </p>
+        </section>
+      </section>
 
-    <section class="final">
-      <h2>Happy Birthday 🎂</h2>
-      <p>You are my favorite story.</p>
-    </section>
+      <section class="timeline">
+        <div class="timeline-container">
+          <div class="timeline-item left">
+            <div class="timeline-content">
+              <div class="timeline-date">May 28, 2025</div>
+              <img
+                src="assets/images/6dbfc0d3-9f90-46a9-a70a-33f3ca3dde74.JPG"
+                alt="How We Met"
+                class="timeline-image"
+              />
+              <h3>How We Met</h3>
+              <p>
+                The moment everything changed. A chance encounter that would
+                become the beginning of our beautiful story.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item left">
+            <div class="timeline-content">
+              <div class="timeline-date">June 11, 2025</div>
+              <img
+                src="assets/images/8F705F50-C890-4FCA-A658-5A0BE449D270.JPG"
+                alt="First Date"
+                class="timeline-image"
+              />
+              <h3>Our First Car Date</h3>
+              <p>
+                I still remember how I felt. The butterflies, the laughter, and
+                the moment I knew you were special.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item left">
+            <div class="timeline-content">
+              <div class="timeline-date">June 22, 2025</div>
+              <img
+                src="assets/images/6665b0c1-e143-4ef6-84a3-320f4a93bd1e.JPG"
+                alt="First Adventure"
+                class="timeline-image"
+              />
+              <h3>Our First Date</h3>
+              <p>
+                I remember how we were both so shy, stealing glances and nervous
+                smiles. Those quiet moments of uncertainty made everything feel
+                more precious, more real.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item right">
+            <div class="timeline-content">
+              <div class="timeline-date">September 7, 2025</div>
+              <img
+                src="assets/images/A62B753D-A03E-4C43-9F91-6A25096545F8.JPG"
+                alt="Summer Memories"
+                class="timeline-image"
+              />
+              <h3>Summer Memories</h3>
+              <p>
+                Long walks, sunset views, and endless conversations. The summer
+                we fell deeper in love.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item left">
+            <div class="timeline-content">
+              <div class="timeline-date">October 23, 2025</div>
+              <img
+                src="assets/images/IMG_2956.JPG"
+                alt="Special Celebration"
+                class="timeline-image"
+              />
+              <h3>Do you remember?</h3>
+              <p>
+                Do you remember when we made tea on the fire under the stars?
+                The warmth of the flames dancing in your eyes, the sweet aroma
+                filling the cool night air, and the way time seemed to stand
+                still as we sat together in perfect silence. Those simple
+                moments with you are the ones I treasure most.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item left">
+            <div class="timeline-content">
+              <div class="timeline-date">December 16, 2025</div>
+              <img
+                src="assets/images/C2280113-E362-491C-ACD7-85A538676F70.JPG"
+                alt="Special Celebration"
+                class="timeline-image"
+              />
+              <h3>A Special Celebration</h3>
+              <p>
+                Celebrating together, making every moment count. You make every
+                day feel like a celebration.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="final">
+        <h2>Happy Birthday 🎂</h2>
+        <p>You are my favorite story.</p>
+        <p class="soulmate-message">
+          Finding a soulmate isn't just about discovering someone who completes
+          you—it's about finding the person who inspires you to become the best
+          version of yourself. It's in the quiet moments of understanding, the
+          shared laughter that needs no explanation, and the comfort of knowing
+          that no matter what life brings, you'll face it together. A soulmate
+          is the one who sees your flaws and loves you anyway, who celebrates
+          your victories as their own, and who turns ordinary days into
+          extraordinary memories. You are that person for me, my soulmate, my
+          best friend, and my forever.
+        </p>
+      </section>
+    </div>
 
     <script src="script.js"></script>
   </body>
