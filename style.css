@@ -526,3 +526,23 @@ body {
     padding: 0.9rem 1.2rem;
   }
 }
+
+/* Hero Video Styles */
+.hero-video-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 2rem auto;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 40px rgba(255, 107, 157, 0.3);
+  border: 2px solid rgba(255, 107, 157, 0.3);
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+}
+
+.hero-video {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
