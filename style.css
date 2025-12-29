@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: #0f172a;
+  color: white;
+}
+
+.hero, .final {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.timeline {
+  padding: 50px;
+}
+
+.event {
+  margin-bottom: 40px;
+  padding: 20px;
+  background: rgba(255,255,255,0.1);
+  border-radius: 10px;
+}
