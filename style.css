@@ -559,7 +559,7 @@ body {
   }
   
   .hero-video {
-    max-height: 600px;
+    max-height: 400px;
   }
 }
 
@@ -572,7 +572,7 @@ body {
   }
   
   .hero-video {
-    max-height: 600px;
+    max-height: 300px;
     border-radius: 12px;
   }
 }
